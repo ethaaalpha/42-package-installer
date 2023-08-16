@@ -8,9 +8,6 @@ rm -rf $VSCODE_FINAL
 echo "Installing zsh"
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
-/var/lib/flatpak/app/com.visualstudio.code/x86_64/stable/active/files/extra/vscode/code --typ
-sleep 5
-
 echo "Fixing 42 school VSCode too"
 echo "{
   \"terminal.integrated.defaultProfile.linux\": \"bash\",
