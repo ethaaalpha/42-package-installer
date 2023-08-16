@@ -23,3 +23,14 @@ cp code.desktop ~/Desktop/
 PATHTOADD="$PWD/$VSCODE_FINAL"
 echo "export PATH=$PATH:$PATHTOADD" >> ~/.zshrc
 echo 'alias code="nohup code . > /dev/null & disown"' >> ~/.zshrc
+
+echo "Fixing 42 school VSCode too"
+echo "{
+  \"terminal.integrated.defaultProfile.linux\": \"bash\",
+  \"terminal.integrated.profiles.linux\": {
+    \"bash\": {
+      \"path\": \"/usr/bin/flatpak-spawn\",
+      \"args\": [\"--host\", \"--env=TERM=xterm-256color\", \"zsh\"]
+    }
+  }
+}" >> ~/.var/app/com.visualstudio.code/config/Code/User/settings.json

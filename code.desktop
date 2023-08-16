@@ -2,7 +2,7 @@
 Name=Visual Studio Code
 Comment=Code Editing. Redefined.
 GenericName=Text Editor
-Exec=1
+Exec=/nfs/homes/ebillon/Documents/private/VSCode-linux-x64/code --unity-launch %F
 Icon=/nfs/homes/ebillon/Documents/private/logo.png
 Type=Application
 StartupNotify=false
@@ -14,5 +14,5 @@ Keywords=vscode;
 
 [Desktop Action new-empty-window]
 Name=New Empty Window
-Exec=2
+Exec=/nfs/homes/ebillon/Documents/private/VSCode-linux-x64/code --new-window %F
 Icon=/nfs/homes/ebillon/Documents/private/logo.png
