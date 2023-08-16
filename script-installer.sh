@@ -14,6 +14,11 @@ sleep 1
 tar -xf $VSCODE_DOWN
 echo "Cleaning .."
 rm -rf $VSCODE_DOWN
+sed -i "s|Exec=1|Exec=$PWD/$VSCODE_FINAL/code --unity-launch %F|" code.desktop
+sed -i "s|Exec=2|Exec=$PWD/$VSCODE_FINAL/code --new-window %F|" code.desktop
+sed -i "s|Icon=.*|Icon=$PWD/logo.png|" code.desktop
+chmod +x ./code.desktop
+cp code.desktop ~/Desktop/
 
 PATHTOADD="$PWD/$VSCODE_FINAL"
 echo "export PATH=$PATH:$PATHTOADD" >> ~/.zshrc

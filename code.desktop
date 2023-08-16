@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Visual Studio Code
+Comment=Code Editing. Redefined.
+GenericName=Text Editor
+Exec=/nfs/homes/ebillon/Documents/private/VSCode-linux-x64/code --unity-launch %F
+Icon=/nfs/homes/ebillon/Documents/private/logo.png
+Type=Application
+StartupNotify=false
+StartupWMClass=Code
+Categories=TextEditor;Development;IDE;
+MimeType=text/plain;inode/directory;application/x-code-workspace;
+Actions=new-empty-window;
+Keywords=vscode;
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=/nfs/homes/ebillon/Documents/private/VSCode-linux-x64/code --new-window %F
+Icon=/nfs/homes/ebillon/Documents/private/logo.png
