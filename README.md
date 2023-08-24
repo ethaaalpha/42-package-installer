@@ -10,5 +10,4 @@ Open the default installed **VSCode**, then close it (*just to generate the sett
 Execute in a terminal
 ``` bash script-installer.sh ```
 *zsh will be installed so you have to relaunch the script a second time after installation*
-
-then go on you desktop and right click on the code.dekstop and select "allow launching"
+Then go on you **desktop** and **right click** on the **code.dekstop** and select **allow launching**
