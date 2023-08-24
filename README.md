@@ -5,7 +5,7 @@ You can use this to fix the default **FlatPack** VSCode of 42 schools *packet ma
 This also **download** a version of *portable edition of VSCode*.
 
 ## How ?
-After reseting your session (*touch ~/.reset*).
+After reseting your session (*touch ~/.reset*). <br />
 Open the default installed **VSCode**, then close it (*just to generate the settings.json file of VSCode*)
 Execute in a terminal
 ``` bash script-installer.sh ```
