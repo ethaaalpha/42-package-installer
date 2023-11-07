@@ -20,7 +20,7 @@ echo "{
 }" > ~/.var/app/com.visualstudio.code/config/Code/User/settings.json
 
 echo "Downloading vscode"
-cp -r "/nfs/sgoinfre/goinfre/Perso/ebillon/$VSCODE_DOWN" .
+cp -r "/sgoinfre/goinfre/Perso/ebillon/$VSCODE_DOWN" .
 echo "Extracting vscode"
 sleep 1
 tar -xf $VSCODE_DOWN
