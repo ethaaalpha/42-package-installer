@@ -2,7 +2,7 @@
 set -e
 
 export APPS_SERVER=/home/${USER}/sgoinfre/apps/
-export APPS_LOCAL=/home/${USER}/apps/
+export APPS_LOCAL=/home/${USER}/goinfre/apps/
 
 TAR_OPT="--strip-components 1"
 
@@ -61,6 +61,7 @@ export PATH="\$JAVA_PATH:\$M2_HOME:\$BREW_HOME:\$FLUTTER:\$ANDROID_PATH/bin:\$PA
 export ANDROID_HOME="\$ANDROID_PATH/sdk"
 export ANDROID_EMULATOR_HOME="\$ANDROID_PATH/emulator"
 export ANDROID_AVD_HOME="\$ANDROID_PATH/avd"
+export ANDROID_USER_HOME="\$ANDROID_PATH/user"
 export PATH="\$ANDROID_HOME:\$ANDROID_EMULATOR_HOME:\$ANDROID_AVD_HOME:\$PATH"
 
 alias astudio="nohup bash \$ANDROID_PATH/bin/studio.sh &"
